@@ -1,0 +1,69 @@
+/* =========================================
+   📱 RESPONSIVE DESIGN - Biblioteca Personal
+   ========================================= */
+
+/* 🔹 Para pantallas medianas (tablets) */
+@media (max-width: 992px) {
+  .navbar .nav-link {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+
+  .dashboard-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* 🔹 Para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .dashboard-card {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
+/* 🔹 Para pantallas muy pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 6px 8px;
+  }
+}

@@ -1,0 +1,31 @@
+<?php 
+  include('includes/header.php');
+  include('includes/navbar.php');
+?>
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+
+<div class="container mt-4">
+  <h1 class="text-center"><center>📚 Biblioteca Personal 📚</center></h1>
+  <center>Bienvenidos</center>
+  
+  <div class="row mt-5">
+    <div class="col-md-3">
+      <a href="autores/index.php" class="btn btn-primary w-100 mb-3">Autores</a>
+    </div>
+    <div class="col-md-3">
+      <a href="categorias/index.php" class="btn btn-success w-100 mb-3">Categorías</a>
+    </div>
+    <div class="col-md-3">
+      <a href="libros/index.php" class="btn btn-warning w-100 mb-3">Libros</a>   
+    </div>
+    <div class="col-md-3">
+      <a href="prestamos/index.php" class="btn btn-danger w-100 mb-3">Préstamos</a>
+    </div>
+  </div>
+
+  <?php include('dashboard/dashboard_contenido.php'); ?>
+</div>
+
+<?php include('includes/footer.php'); ?>

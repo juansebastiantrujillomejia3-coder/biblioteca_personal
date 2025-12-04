@@ -1,0 +1,235 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+}
+
+/* Títulos principales */
+h1, h2, h3, h4, h5 {
+  color: #1876c8;
+  font-weight: 600;
+}
+
+/* Parrafos */
+p {
+  color: #175e9d;
+}
+
+/* === NAVBAR === */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar-dark .nav-link {
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #ffc107;
+}
+
+/* === BOTONES PRINCIPALES === */
+.btn {
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.btn-primary { background-color: #2079d2; border: none; }
+.btn-success { background-color: #198754; border: none; }
+.btn-warning { background-color: #ffc107; border: none; color: #ffffff; }
+.btn-danger  { background-color: #dc3545; border: none; }
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* === DASHBOARD PRINCIPAL === */
+.dashboard-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  background-color: #fff;
+  padding: 25px;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* === FORMULARIOS === */
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+input, select, textarea {
+  border-radius: 8px !important;
+}
+
+/* === TABLAS === */
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #212529;
+  color: #fff;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+/* === TARJETAS === */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+
+/* === IMÁGENES === */
+.img-fluid {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(22, 20, 20, 0.436);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+/* === estilos activi inactivo. autores === */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* === estilos activi inactivo. categorias === */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* === estilos activi inactivo. libros === */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* === estilos activi inactivo. prestamos === */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+#anino_plublicacion, #estado {
+  max-width: 200px !important;
+}
+
+/* === DASHBOARD TARJETAS CON COLORES === */
+
+.dashboard-card {
+  border-radius: 15px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* ==== OPCIONES DE COLORES ==== */
+
+/* Azul */
+.bg-dashboard-blue {
+  background: linear-gradient(135deg, #2357a5, #0056d2);
+}
+
+/* Verde */
+.bg-dashboard-green {
+  background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+/* Morado */
+.bg-dashboard-purple {
+  background: linear-gradient(135deg, #6f42c1, #59359a);
+}
+
+/* Evitar texto blanco en tarjetas del dashboard dentro del index */
+.dashboard-card p,
+.dashboard-card h3,
+.dashboard-card h4,
+.dashboard-card li {
+    color: #222 !important;
+}
+
