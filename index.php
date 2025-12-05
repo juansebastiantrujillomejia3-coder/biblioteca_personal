@@ -7,8 +7,18 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 
 <div class="container mt-4">
-  <h1 class="text-center"><center>📚 Biblioteca Personal 📚</center></h1>
+  <h1 class="text-center" style="color:#2c3e50; font-weight: bold;">
+    Biblioteca Personal — Versión Mejorada
+</h1>
+
   <center>Bienvenidos</center>
+
+  <p style="text-align:center; color:gray;">
+    Actualización realizada desde la rama alterna (mejora-interfaz).
+</p>
+
+
+
   
   <div class="row mt-5">
     <div class="col-md-3">
